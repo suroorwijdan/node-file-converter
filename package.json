@@ -33,5 +33,12 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.2"
   },
-  "keywords": []
+  "dependencies": {
+    "node-csv-json": "*"
+  },
+  "keywords": [],
+  "preferGlobal" : true,
+  "bin": {
+    "nfc": "lib/node-file-converter.js"
+  }
 }
