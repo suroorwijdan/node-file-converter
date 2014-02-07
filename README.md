@@ -3,24 +3,40 @@
 A CLI tool for converting files to different formats
 
 ## Getting Started
-Install the module with: `npm install node-file-converter`
-
-```javascript
-var node_file_converter = require('node-file-converter');
-node_file_converter.awesome(); // "awesome"
-```
+Install the module with: `npm install -g node-file-converter`
 
 ## Documentation
-_(Coming soon)_
 
-## Examples
-_(Coming soon)_
+`Node File Converter` is a command line utility to convert various file types to different formats.
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+Currently it supports only `csv` to `json` conversion. We are working on adding more options and file types to this module.
+
+**Module Roadmap**
+
+* Doc to PDF
+* JSON to CSV
+* Text to PDF
+* Text to JSON
+* XML to JSON
+
+These are some of the file conversions to and fro which will be supported in the future versions.
+
+##Examples
+
+####How to use:
+
+Install the module globally `npm install -g node-file-converter`. 
+
+**CSV to JSON**
+Once installed, you will have the `nfc` command availabel to you,
+
+`nfc <source file> <destination file>`
+
+The result of the conversion will also be logged onto the terminal. 
 
 ## Release History
-_(Nothing yet)_
+
+####v 0.0.1
 
 ## License
 Copyright (c) 2014 Suroor Wijdan  
